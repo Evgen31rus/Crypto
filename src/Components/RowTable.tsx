@@ -3,6 +3,7 @@ import { HandySvg } from "handy-svg";
 import star from "../svg/market/star.svg";
 import { Chart, registerables } from "chart.js";
 import { Bar, Line } from "react-chartjs-2";
+import { useState } from "react";
 
 type typeProps = {
   data: ICryptoCurrency;
@@ -11,6 +12,12 @@ type typeProps = {
 };
 export default function RowTable({ data, index, img }: typeProps) {
   Chart.register(...registerables);
+  const [isClickTraid , setIsClickTraid] = useState(false)
+
+const HendleIsClickTraid = ()=>{
+  setIsClickTraid(prev => !prev)
+}
+
   const dataLine = {
     
         labels: ["", "", ""],
@@ -44,18 +51,21 @@ export default function RowTable({ data, index, img }: typeProps) {
   return (
     <div
       className={`w-[100%] h-[50px] text-[0.8rem] flex items-center border-b-2 border-[#E0E0E0] sm:justify-around sm:text-[0.7rem]`}
+      
     >
-      <div className={`w-[5%] flex justify-center sm:hidden`}>
+      <div className={`w-[5%] flex justify-center sm:hidden`}
+
+      >
         <HandySvg
           src={star}
-          fill={`141414`}
-          className={`w-[20px] cursor-pointer `}
-        />{" "}
+          className={`w-[20px] transition-all duration-300 fill-[${isClickTraid? '#EF443B' : ''}]`}
+      
+        />
       </div>
       <div className={`w-[10%] `}>{index + 1}</div>
       <div className={`w-[20%]  flex items-center `}>
         <img src={img} alt={data.name} className={`mr-5 w-[20px] h-[20px]`} />
-        <p className={`sm:hidden`}>{data.name}</p>
+        <p className={`sm:hidden text-[0.8rem] whitespace-nowrap text-ellipsis overflow-hidden`}>{data.name}</p>
         <p className={`hidden sm:flex`}>{data.symbol}</p>
       </div>
       <div className={`w-[20%]`}>{data.price_usd}</div>
@@ -116,6 +126,7 @@ export default function RowTable({ data, index, img }: typeProps) {
       <div className={`w-[10%]`}>
         <button
           className={`flex justify-center items-center w-[60px] h-[25px] rounded-2xl border-[#EF443B] border-[1px] transition-all duration-300  hover:bg-[#EF443B] hover:text-[white] sm:text-[0.5rem] sm:w-[30px] sm:h-[15px]`}
+          onClick={()=>HendleIsClickTraid()}
         >
           Trade
         </button>
