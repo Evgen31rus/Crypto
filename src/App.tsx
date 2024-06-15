@@ -6,7 +6,7 @@ import NavBar from './Components/NavBar';
 
 function App() {
   return (
-    <div className="App w-[100%] h-[100%] flex flex-col items-center  bg-[#141414]">
+    <div className="App w-[100%] h-[100%] flex flex-col items-center overflow-x-hidden  bg-[#141414]">
       <NavBar/>
       <Main/>
     </div>

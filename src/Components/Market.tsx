@@ -39,7 +39,7 @@ export default function Market() {
 
 
     return (
-        <div id={`Market`} className={`w-[90%] h-[832px] bg-[#141414] flex flex-col text-white items-center`}>
+        <div id={`Market`} className={`w-[90%] h-[832px] bg-[#141414] flex flex-col text-white items-center sm:mt-2`}>
             
             <h1 className={`text-[2.0rem] text-start pl-5 font-medium h-[100px]`}>Market Update</h1>
             <TableMarket data={response}/>

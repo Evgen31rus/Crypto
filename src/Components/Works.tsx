@@ -51,21 +51,22 @@ export default function Works(){
 
 <div 
 
-className={`w-[100%] h-[60%] relative sm:flex sm:flex-col sm:h-[100%] sm:items-center sm:justify-around`}>
+className={`w-[100%] h-[60%] relative sm:flex sm:flex-col sm:h-[100%] sm:items-center sm:justify-around overflow-hidden`}>
 
 <motion.div 
 initial={'hidden'}
 whileInView={'visible'}
-className={`absolute top-[0%] right-[95%] sm:static `}
+className={`absolute top-[0%] right-[95%] sm:static md:right-[100%] `}
 viewport={{amount: 0.2}}>
 <FWorkIcon variants={workIconAnimation} custom={1} png={dowlandPNG} title={`Download`} discription={`Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.`} top={'0'} right={'0'}/>
+
 </motion.div>
 
 
 <motion.div 
 initial={'hidden'}
 whileInView={'visible'}
-className={`absolute right-[70%] top-[30%] sm:static`}
+className={`absolute right-[70%] top-[30%] sm:static md:right-[80%]`}
 viewport={{amount: 0.2}}>
 <FWorkIcon variants={workIconAnimation} custom={2} png={WalletPNG} title={`Connect Wallet`} discription={`Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.`} top={'60'} right={'100'}/>
 </motion.div>
@@ -73,14 +74,14 @@ viewport={{amount: 0.2}}>
 <motion.div 
 initial={'hidden'}
 whileInView={'visible'}
-className={`absolute right-[47%] sm:static`}>
+className={`absolute right-[47%] sm:static md:right-[55%]`}>
 <FWorkIcon variants={workIconAnimation} custom={3} png={MiningPNG} title={`Start Trading`} discription={`Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.`} top={'0'} right={'200'}/>
 </motion.div>
 
 <motion.div 
 initial={'hidden'}
 whileInView={'visible'}
-className={`absolute right-[25%] top-[30%] sm:static`}>
+className={`absolute right-[25%] top-[30%] sm:static md:right-[35%]`}>
 <FWorkIcon variants={workIconAnimation} custom={4} png={ComparisonPNG} title={`Earn Money`} discription={`Stacks Is A Production-Ready Library Of Stackable Content Blocks Built In React Native.`} top={'60'} right={'300'}/>
 </motion.div>
 </div>

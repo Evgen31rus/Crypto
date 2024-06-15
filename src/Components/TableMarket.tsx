@@ -31,7 +31,19 @@ export default function TableMarket({data}:typeProps){
     
     const btnAnimationBack = {
         hidden: {
-          x:-500,
+          x:-100,
+          opacity: 0,
+        },
+        visible: (custom:number) => ({
+          x: 0 ,
+          opacity: 1,
+          transition: {delay: custom*0.2}
+        }) 
+        
+    }
+    const btnAnimationNext = {
+        hidden: {
+          x:100,
           opacity: 0,
         },
         visible: (custom:number) => ({
@@ -69,11 +81,7 @@ export default function TableMarket({data}:typeProps){
 
 
     return(
-        <motion.div 
-        initial='hidden'
-        whileInView='visible'
-
-        className={`w-[90%] h-[80%] max-w-[1200px] transition-all duration-300 sm:w-[100%]`}>
+        <div className={`w-[90%] h-[80%] max-w-[1200px] transition-all duration-300 sm:w-[100%]`}>
 
 
 
@@ -111,7 +119,10 @@ export default function TableMarket({data}:typeProps){
 </CSSTransition>
 
 
-<div className={`w-[100%] h-[100px] flex items-center justify-center`}>
+<motion.div 
+        initial='hidden'
+        whileInView='visible'
+        className={`w-[100%] h-[100px] flex items-center justify-center`}>
 <motion.button 
 variants={btnAnimationBack}
 custom={1}
@@ -121,14 +132,17 @@ disabled={switchPage.min === 0}
 >
 back
 </motion.button>
-<button className={`icon relative overflow-hidden w-[150px] h-[30px] border-[2px] rounded-full border-[#EF443B] flex justify-center items-center ml-5 ${(switchPage.max)===10*(data.length/10)? 'bg-[grey] opacity-50 hover:bg-[grey] border-[grey]' : ''} transition-all duration-300 hover:bg-[#EF443B]`}
+<motion.button 
+variants={btnAnimationNext}
+custom={1}
+className={`icon relative overflow-hidden w-[150px] h-[30px] border-[2px] rounded-full border-[#EF443B] flex justify-center items-center ml-5 ${(switchPage.max)===10*(data.length/10)? 'bg-[grey] opacity-50 hover:bg-[grey] border-[grey]' : ''} transition-all duration-300 hover:bg-[#EF443B]`}
 onClick = {()=>HandleSwitchCoinsNext()}
 disabled={(switchPage.max)>=10*(data.length/10)}
 >
 next 
-</button>
-</div>
+</motion.button>
+</motion.div>
 
-        </motion.div>
+        </div>
     )
 }

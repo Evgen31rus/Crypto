@@ -13,7 +13,7 @@ export const WorkIcon = forwardRef<HTMLDivElement, typeProps>((props,ref)=>{
     
 const {png, title, discription, top,  right }=props
     return(
-        <motion.div ref={ref} className={`absolute w-[250px] h-[160px] flex flex-col justify-between items-center sm:static sm:mt-10 sm:mb-10`}
+        <motion.div ref={ref} className={`absolute w-[250px] h-[160px] flex flex-col justify-between items-center sm:static md:w-[100px]sm:mt-10 sm:mb-10`}
         style={{
             transform: `translateY(${window.innerWidth<=605? 0 : top}%) translateX(${window.innerWidth<=605? 0 : right}%)`
         }}
