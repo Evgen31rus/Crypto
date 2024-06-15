@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Crypto/static/css/main.39dd3a90.css",
-    "main.js": "/Crypto/static/js/main.e377e535.js",
+    "main.css": "/Crypto/static/css/main.f38207e8.css",
+    "main.js": "/Crypto/static/js/main.bc5256d0.js",
     "static/js/453.ed3810f9.chunk.js": "/Crypto/static/js/453.ed3810f9.chunk.js",
     "static/media/XRP.png": "/Crypto/static/media/XRP.45ab5a72f1e266c7e528.png",
     "static/media/Binance Coin.png": "/Crypto/static/media/Binance Coin.e23eb2d7d0a3b8c7b4a7.png",
@@ -9,19 +9,21 @@
     "static/media/USD Coin.png": "/Crypto/static/media/USD Coin.cb3c93a7fc45df6c25fe.png",
     "static/media/Dogecoin.png": "/Crypto/static/media/Dogecoin.689e58528e0bde96413b.png",
     "static/media/Ethereum.png": "/Crypto/static/media/Ethereum.7efcceea06b17a0b4193.png",
+    "static/media/Laptop.png": "/Crypto/static/media/Laptop.d3adc37eeb18e6893add.png",
     "static/media/Tether.png": "/Crypto/static/media/Tether.93c43477aac9212826b0.png",
     "static/media/CoinsBanner.png": "/Crypto/static/media/CoinsBanner.f9af27c7878c9352503a.png",
     "static/media/TON Coin.png": "/Crypto/static/media/TON Coin.cf913d6bfd2d2cb65fcf.png",
     "static/media/Staked Ether.png": "/Crypto/static/media/Staked Ether.83ecaa60d810e0a92a01.png",
     "static/media/account.svg": "/Crypto/static/media/account.1122aa3cc94bf876415d6eb983f7fbc5.svg",
+    "static/media/Provide.svg": "/Crypto/static/media/Provide.e717ab615a225bf1f755ff50b55bde04.svg",
     "static/media/star.svg": "/Crypto/static/media/star.497d204f0b952f45a4383bbac44afced.svg",
     "index.html": "/Crypto/index.html",
-    "main.39dd3a90.css.map": "/Crypto/static/css/main.39dd3a90.css.map",
-    "main.e377e535.js.map": "/Crypto/static/js/main.e377e535.js.map",
+    "main.f38207e8.css.map": "/Crypto/static/css/main.f38207e8.css.map",
+    "main.bc5256d0.js.map": "/Crypto/static/js/main.bc5256d0.js.map",
     "453.ed3810f9.chunk.js.map": "/Crypto/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.39dd3a90.css",
-    "static/js/main.e377e535.js"
+    "static/css/main.f38207e8.css",
+    "static/js/main.bc5256d0.js"
   ]
 }
