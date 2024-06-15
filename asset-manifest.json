@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/Cripto/static/css/main.39dd3a90.css",
+    "main.js": "/Cripto/static/js/main.c2498567.js",
+    "static/js/453.ed3810f9.chunk.js": "/Cripto/static/js/453.ed3810f9.chunk.js",
+    "static/media/XRP.png": "/Cripto/static/media/XRP.45ab5a72f1e266c7e528.png",
+    "static/media/Binance Coin.png": "/Cripto/static/media/Binance Coin.e23eb2d7d0a3b8c7b4a7.png",
+    "static/media/Solana.png": "/Cripto/static/media/Solana.22c7e2b4148b8f6fe425.png",
+    "static/media/USD Coin.png": "/Cripto/static/media/USD Coin.cb3c93a7fc45df6c25fe.png",
+    "static/media/Dogecoin.png": "/Cripto/static/media/Dogecoin.689e58528e0bde96413b.png",
+    "static/media/Ethereum.png": "/Cripto/static/media/Ethereum.7efcceea06b17a0b4193.png",
+    "static/media/Tether.png": "/Cripto/static/media/Tether.93c43477aac9212826b0.png",
+    "static/media/CoinsBanner.png": "/Cripto/static/media/CoinsBanner.f9af27c7878c9352503a.png",
+    "static/media/TON Coin.png": "/Cripto/static/media/TON Coin.cf913d6bfd2d2cb65fcf.png",
+    "static/media/Staked Ether.png": "/Cripto/static/media/Staked Ether.83ecaa60d810e0a92a01.png",
+    "static/media/account.svg": "/Cripto/static/media/account.1122aa3cc94bf876415d6eb983f7fbc5.svg",
+    "static/media/star.svg": "/Cripto/static/media/star.497d204f0b952f45a4383bbac44afced.svg",
+    "index.html": "/Cripto/index.html",
+    "main.39dd3a90.css.map": "/Cripto/static/css/main.39dd3a90.css.map",
+    "main.c2498567.js.map": "/Cripto/static/js/main.c2498567.js.map",
+    "453.ed3810f9.chunk.js.map": "/Cripto/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39dd3a90.css",
+    "static/js/main.c2498567.js"
+  ]
+}
