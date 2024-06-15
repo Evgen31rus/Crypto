@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Crypto/static/css/main.f38207e8.css",
-    "main.js": "/Crypto/static/js/main.bc5256d0.js",
+    "main.css": "/Crypto/static/css/main.5a195139.css",
+    "main.js": "/Crypto/static/js/main.7c7d8622.js",
     "static/js/453.ed3810f9.chunk.js": "/Crypto/static/js/453.ed3810f9.chunk.js",
     "static/media/XRP.png": "/Crypto/static/media/XRP.45ab5a72f1e266c7e528.png",
     "static/media/Binance Coin.png": "/Crypto/static/media/Binance Coin.e23eb2d7d0a3b8c7b4a7.png",
@@ -18,12 +18,12 @@
     "static/media/Provide.svg": "/Crypto/static/media/Provide.e717ab615a225bf1f755ff50b55bde04.svg",
     "static/media/star.svg": "/Crypto/static/media/star.497d204f0b952f45a4383bbac44afced.svg",
     "index.html": "/Crypto/index.html",
-    "main.f38207e8.css.map": "/Crypto/static/css/main.f38207e8.css.map",
-    "main.bc5256d0.js.map": "/Crypto/static/js/main.bc5256d0.js.map",
+    "main.5a195139.css.map": "/Crypto/static/css/main.5a195139.css.map",
+    "main.7c7d8622.js.map": "/Crypto/static/js/main.7c7d8622.js.map",
     "453.ed3810f9.chunk.js.map": "/Crypto/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f38207e8.css",
-    "static/js/main.bc5256d0.js"
+    "static/css/main.5a195139.css",
+    "static/js/main.7c7d8622.js"
   ]
 }
