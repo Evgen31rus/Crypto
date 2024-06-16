@@ -4,15 +4,14 @@ import BurgerMenu from './BurgerMenu'
 
 export default function NavBar(){
     return(
-        <div className={`w-[80%] max-w-[1200px] h-[80px] flex justify-between bg-[#141414] text-white items-center fixed z-50 sm:w-[100%] sm:pl-10`}>
+        <div className={`w-[80%] max-w-[1200px] h-[80px] flex justify-between bg-[#141414] text-white items-center fixed z-50 sm:w-[100%] sm:justify-end sm:pr-10`}>
 <BurgerMenu/>
 <div className={`w-[40%] text-[0.8rem] md:w-[70%] sm:hidden`}>
 <ul className={`w-[100%] flex justify-around`}>
     <li>Logo</li>
-    <li><a href="">Buy & Sell</a></li>
+    <li><a href="#Overview">Buy & Sell</a></li>
     <li><a href="#Market">Markets</a></li>
     <li><a href="">Blogs</a></li>
-    <li><a href="">Markets</a></li>
     <li><a href="">FAQ</a></li>
 </ul>
 </div>
