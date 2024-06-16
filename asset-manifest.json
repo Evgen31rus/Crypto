@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Crypto/static/css/main.0fb52798.css",
-    "main.js": "/Crypto/static/js/main.780f025b.js",
+    "main.css": "/Crypto/static/css/main.7d6f95f7.css",
+    "main.js": "/Crypto/static/js/main.39dc1e0b.js",
     "static/js/453.68693753.chunk.js": "/Crypto/static/js/453.68693753.chunk.js",
     "static/media/The Graph.png": "/Crypto/static/media/The Graph.de68ba59f008ba4e6d33.png",
     "static/media/XRP.png": "/Crypto/static/media/XRP.45ab5a72f1e266c7e528.png",
@@ -69,16 +69,20 @@
     "static/media/Immutable.png": "/Crypto/static/media/Immutable.4fa71c107c7c53372ee3.png",
     "static/media/Filecoin.png": "/Crypto/static/media/Filecoin.4c6f33bd09638d34d705.png",
     "static/media/Marinade staked SOL.png": "/Crypto/static/media/Marinade staked SOL.416606025c0f57c8c69e.png",
+    "static/media/instagramm.svg": "/Crypto/static/media/instagramm.6ffd665819e30cdb5765d4087bfb7beb.svg",
     "static/media/account.svg": "/Crypto/static/media/account.1122aa3cc94bf876415d6eb983f7fbc5.svg",
+    "static/media/twitter.svg": "/Crypto/static/media/twitter.8e97f5a4b802feb6747eb4ff4fd157c8.svg",
     "static/media/Provide.svg": "/Crypto/static/media/Provide.e717ab615a225bf1f755ff50b55bde04.svg",
     "static/media/star.svg": "/Crypto/static/media/star.497d204f0b952f45a4383bbac44afced.svg",
+    "static/media/youtobe.svg": "/Crypto/static/media/youtobe.17d1acc69be7fe00480cf73cfdd7879a.svg",
     "index.html": "/Crypto/index.html",
-    "main.0fb52798.css.map": "/Crypto/static/css/main.0fb52798.css.map",
-    "main.780f025b.js.map": "/Crypto/static/js/main.780f025b.js.map",
+    "static/media/facebook.svg": "/Crypto/static/media/facebook.5438b1ecf42b7ef1ee6f5fe0cc73a920.svg",
+    "main.7d6f95f7.css.map": "/Crypto/static/css/main.7d6f95f7.css.map",
+    "main.39dc1e0b.js.map": "/Crypto/static/js/main.39dc1e0b.js.map",
     "453.68693753.chunk.js.map": "/Crypto/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0fb52798.css",
-    "static/js/main.780f025b.js"
+    "static/css/main.7d6f95f7.css",
+    "static/js/main.39dc1e0b.js"
   ]
 }
