@@ -23,7 +23,7 @@ export default function Overview(){
         <motion.div
       initial='hidden'
       whileInView='visible'
-        className={`w-[100%] h-[400px] flex flex-col items-center md:h-[500px] `}>
+        className={`w-[100%] h-[400px] flex flex-col items-center md:h-[500px] sm:h-[800px] `}>
             <div className={`w-[80%] flex max-w-[1200px] justify-between text-white sm:justify-center relative`}>
                 <div className={`w-[50%] h-[300px] flex flex-col justify-between sm:w-[100%] sm:items-center md:h-[450px]`}>
                 <motion.h1 
