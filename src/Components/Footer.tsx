@@ -76,7 +76,7 @@ export default function Footer(){
 
 
             </div>
-            <div className={`w-[100%] h-[150px] flex justify-around items-center sm:flex-col sm:h-[250px] sm:justify-between`}>
+            <div className={`w-[100%] h-[150px] flex justify-around items-center sm:flex-col  sm:justify-between`}>
 
                 <p className={`text-[0.8rem] `}>Copyright @ 2023 Company</p>
                 
