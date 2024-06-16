@@ -80,7 +80,7 @@ export default function Footer(){
 
                 <p className={`text-[0.8rem] `}>Copyright @ 2023 Company</p>
                 
-                <div  className={`flex w-[200px] h-[80%] justify-around items-center sm:mt-5`}>
+                <div  className={`flex w-[200px] h-[80%] justify-around items-center sm:mt-0`}>
                     {icons.map((el, index)=>
                     <a href={el.url} target="_blank" className={`w-[30px] h-[30px] bg-cover bg-center `}>
                         <HandySvg src={el.svg} className={`w-[30px] h-[20px]`}/>
