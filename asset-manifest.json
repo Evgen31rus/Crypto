@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Crypto/static/css/main.b5081f27.css",
-    "main.js": "/Crypto/static/js/main.95b86cfc.js",
+    "main.css": "/Crypto/static/css/main.95530063.css",
+    "main.js": "/Crypto/static/js/main.1cfcafb3.js",
     "static/js/453.68693753.chunk.js": "/Crypto/static/js/453.68693753.chunk.js",
     "static/media/The Graph.png": "/Crypto/static/media/The Graph.de68ba59f008ba4e6d33.png",
     "static/media/XRP.png": "/Crypto/static/media/XRP.45ab5a72f1e266c7e528.png",
@@ -77,12 +77,12 @@
     "static/media/youtobe.svg": "/Crypto/static/media/youtobe.17d1acc69be7fe00480cf73cfdd7879a.svg",
     "index.html": "/Crypto/index.html",
     "static/media/facebook.svg": "/Crypto/static/media/facebook.5438b1ecf42b7ef1ee6f5fe0cc73a920.svg",
-    "main.b5081f27.css.map": "/Crypto/static/css/main.b5081f27.css.map",
-    "main.95b86cfc.js.map": "/Crypto/static/js/main.95b86cfc.js.map",
+    "main.95530063.css.map": "/Crypto/static/css/main.95530063.css.map",
+    "main.1cfcafb3.js.map": "/Crypto/static/js/main.1cfcafb3.js.map",
     "453.68693753.chunk.js.map": "/Crypto/static/js/453.68693753.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5081f27.css",
-    "static/js/main.95b86cfc.js"
+    "static/css/main.95530063.css",
+    "static/js/main.1cfcafb3.js"
   ]
 }
